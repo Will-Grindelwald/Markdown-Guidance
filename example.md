@@ -145,8 +145,9 @@ PS : 以空行结束
 #####**显示图片**
 **来源于网络的图片**　　　　　　　　　　　　　　　　　　　　　**GitHub仓库中的图片**
 
-![](https://www.baidu.com/img/bdlogo.gif "百度logo")　　　　
+![baidu](https://www.baidu.com/img/bdlogo.gif "百度logo")　　　　
 ![](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png)  
+中括号[ ]中是图片的替代文字，图片加载失败时会显示该文字  
 #####**给图片加上超链接**
 **第一种**　　　　　　　　　　　　　　　　　　　　　　　　　　**第二种**
 
@@ -204,4 +205,5 @@ string &operator+(const string& A,const string& B) //cpp
 ##<a name="emoji"/>8. 表情
 Github的Markdown语法支持添加emoji表情, 输入不同的符号码(两个冒号包围的字符)可以显示出不同的表情。比如`:blush:`, 可以显示:blush:。  
 具体每一个表情的符号码, 可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中, 大家可以直接在此查看[emoji](./emoji.md)。  
-##<a name="diff"/>9. GFM对SM的扩展
+##<a name="extend"/>9. GFM对SM的扩展
+
