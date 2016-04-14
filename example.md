@@ -144,11 +144,11 @@ PS : 以空行结束
 ###<a name="piclink"/>5.3 图片超链接
 #####**显示图片**
 **来源于网络的图片**　　　　　　　　　　　　　　　　　　　　　**GitHub仓库中的图片**  
-![](https://www.baidu.com/img/bdlogo.gif "百度logo")　　
+![](https://www.baidu.com/img/bdlogo.gif "百度logo")　　　　
 ![](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png)  
 #####**给图片加上超链接**
 **第一种**　　　　　　　　　　　　　　　　　　　　　　　　　　**第二种**  
-[![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)　　
+[![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)　　　　
 [![head]](http://blog.csdn.net/lyogvce)
 [head]:https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/blob/master/profile_picture.png "点击图片进入我的博客"
 ##<a name="code"/>6. 代码
@@ -168,41 +168,36 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 string &operator+(const string& A,const string& B) //cpp
 ```
 ##<a name="table"/>7. 表格
-表头1  | 表头2
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
-
 | 表头1  | 表头2|
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
-| 名字 | 描述          |
-| ------------- | ----------- |
-| Help      | Display the help window.|
-| Close     | Closes a window     |
+| 名字    | 描述                    |
+| ------- | ----------------------- |
+| Help    | Display the help window.|
+| Close   | Closes a window         |
 
 表格中也可以使用普通文本的删除线, 斜体等效果
 
-| 名字 | 描述          |
-| ------------- | ----------- |
-| Help      | ~~Display the~~ help window.|
-| Close     | _Closes_ a window     |
+| 名字    | 描述                        |
+| ------- | --------------------------- |
+| Help    | ~~Display the~~ help window.|
+| Close   | _Closes_ a window           |
 
 表格可以指定对齐方式
 
-| 左对齐 | 居中  | 右对齐 |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| 左对齐        |       居中      | 右对齐 |
+| :------------ |:---------------:| ------:|
+| col 3 is      | some wordy text | $1600  |
+| col 2 is      |    centered     |   $12  |
+| zebra stripes |    are neat     |    $1  |
 
 表格中嵌入图片
 
 | 图片 | 描述 |
 | ---- | ---- |
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") | baidu
+|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") | baidu|
 
 ##<a name="emoji"/>8. 表情
 Github的Markdown语法支持添加emoji表情, 输入不同的符号码(两个冒号包围的字符)可以显示出不同的表情。  
