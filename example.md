@@ -29,14 +29,14 @@
 * [8. 表情](#emoji)
 * [9. GFM对SM的扩展](#diff)
 
-##<a name="line"/>1.横线
+##<a name="line"/>1. 横线
 #####***、---、___显示虚横线
 三种效果一样  
 ***
 ---
 ___
 PS :　___ 要与上边的文字隔一行，否则会被认为是一、二级标题（的另一种写法）, 所以用第一种就好  
-##<a name="title"/>2.标题
+##<a name="title"/>2. 标题
 #一级标题
 ##二级标题
 ###三级标题
@@ -44,8 +44,8 @@ PS :　___ 要与上边的文字隔一行，否则会被认为是一、二级标
 #####五级标题
 ######六级标题
 PS : 一、二级标题自动带有下划线(不是虚横线)  
-##<a name="text"/>3.文本
-###3.1普通文本
+##<a name="text"/>3. 文本
+###3.1 普通文本
 这是一段普通的文本  
 #####关于换行
 直接回车不能换行，
@@ -56,28 +56,28 @@ PS : 一、二级标题自动带有下划线(不是虚横线)
 
 也能实现换行效果，不过这个行间距有点大。  
 PS : 非普通文本是自动换行的  
-###3.2.1高亮
+###3.2.1 高亮
 Thank `You` . Please `Call` Me `Coder`
 #####高亮功能更适合做一篇文章的tag
 例如:<br>
 `java` `网络编程` `Socket` `全双工`
-###3.2.2删除线
+###3.2.2 删除线
 这是一个 ~~删除线~~
-###3.2.3粗体
+###3.2.3 粗体
 **粗体1**　　　　　　　　　　__粗体2__  
-###3.2.4斜体
+###3.2.4 斜体
 *斜体1*　　　　　　　　　　_斜体2_  
 ###组合使用粗体、斜体和删除线
 ***斜粗体1***　　　　　　　　　___斜粗体2___  
 ***~~斜粗体删除线1~~***　　　　　　~~***斜粗体删除线2***~~  
-###3.2.5空格
+###3.2.5 空格
 普    通    的    空    格    多    个    只    会    显    示    为    一    个  
 使用全角空格，　　全角空格被解释为汉字，　　所以不会被被解释为HTML分隔符，　　可以按照实际的空格数显示。
-###3.3文本块
+###3.3 文本块
     欢迎到访
     很高兴见到您
     祝您，早上好，中午好，下午好，晚安
-###<a name="blockquotes"/>3.4块引用
+###<a name="blockquotes"/>3.4 块引用
 #####常用于引用文本
 #####文本摘自《深入理解计算机系统》P27
 　令人吃惊的是，在哪种字节顺序是合适的这个问题上，人们表现得非常情绪化。实际上术语“little endian”（小端）和“big endian”（大端）出自Jonathan Swift的《格利佛游记》一书，其中交战的两个派别无法就应该从哪一端打开一个半熟的鸡蛋达成一致。因此，争论沦为关于社会政治的争论。只要选择了一种规则并且始终如一的坚持，其实对于哪种字节排序的选择都是任意的。
@@ -92,7 +92,7 @@ Thank `You` . Please `Call` Me `Coder`
 >>>>平衡二叉树
 >>>>>满二叉树
 
-##<a name="dot"/>4.列表
+##<a name="dot"/>4. 列表
 ###圆点列表
 * 昵称:果冻虾仁
 * 别名:隔壁老王
@@ -142,7 +142,7 @@ Thank `You` . Please `Call` Me `Coder`
 - [ ] .NET
 
 您可以使用这个功能来标注某个项目各项任务的完成情况。
-##<a name="link"/>4.链接
+##<a name="link"/>5. 链接
 ###链接外部URL
 [我的博客](http://blog.csdn.net/lyogvce "悬停显示")   语法如下:
 ```
@@ -190,7 +190,7 @@ Thank `You` . Please `Call` Me `Coder`
 
 
 
-##<a name="code"/>6.代码
+##<a name="code"/>6. 代码
 ```Java
 public static void main(String[]args){} //Java
 ```
@@ -206,7 +206,7 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```cpp
 string &operator+(const string& A,const string& B) //cpp
 ```
-##<a name="table"/>7.表格
+##<a name="table"/>7. 表格
 表头1  | 表头2
 ------------- | -------------
 Content Cell  | Content Cell
@@ -243,7 +243,7 @@ Content Cell  | Content Cell
 | ---- | ---- |
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") | baidu
 
-##<a name="emoji"/>8.表情
+##<a name="emoji"/>8. 表情
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
 
 比如`:blush:`，可以显示:blush:。
@@ -251,4 +251,4 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
 
 但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](/emoji.md)。
-##<a name="diff"/>9.GFM对SM的扩展
+##<a name="diff"/>9. GFM对SM的扩展
