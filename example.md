@@ -201,9 +201,12 @@ string &operator+(const string& A,const string& B) //cpp
 | 图片 | 描述 |
 | ---- | ---- |
 |![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") | baidu|
+PS : 不用对的这么齐:b
 
 ##<a name="emoji"/>8. 表情
 Github的Markdown语法支持添加emoji表情, 输入不同的符号码(两个冒号包围的字符)可以显示出不同的表情。比如`:blush:`, 可以显示:blush:。  
 具体每一个表情的符号码, 可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中, 大家可以直接在此查看[emoji](./emoji.md)。  
 ##<a name="extend"/>9. GFM对SM的扩展
 
+1. 直接支持链接: http://google.com/ (SM语法: <http://google.com/>) 见[5. 链接](#link)
+2. 代码块的嵌入语法不同, 见[6. 代码](#code)
