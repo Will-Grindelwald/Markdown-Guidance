@@ -24,8 +24,8 @@
     * GitHub仓库中的图片
 * [6. 代码](#code)
 * [7. 表格](#table) 
-* [* 表情](#emoji)
-* [* GFM对SM的扩展](#exptend)
+* [8. 表情](#emoji)
+* [9. GFM对SM的扩展](#exptend)
 
 ##<a name="line"/>1. 横线
 #####***、---、___显示虚横线
@@ -145,14 +145,10 @@ PS : 以空行结束
 **如果文件要引用的文件不存在, 则待点击的文本为红色。引用的文件存在存在则文本为蓝色。**  
 ###5.2 锚点
 我们可以使用HTML的锚点标签(`#`)来设置锚点 : [回到目录](#index)  
-但其实呢, 每一个标题都是一个锚点, 不需要用标签来指定, 比如我们 [回到顶部](#Markdown)  
-不过不幸的是, 由于对中文支持的不好, 所以中文标题貌似是不能视作标签的。  
-##<a name="pic"/>显示图片
-###来源于网络的图片
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-![](https://assets-cdn.github.com/images/modules/contact/goldstar.gif)
-
-###GitHub仓库中的图片
+###<a name="pic"/>显示图片
+#####来源于网络的图片
+![baidu](https://www.baidu.com/img/bdlogo.gif "百度logo")
+#####GitHub仓库中的图片
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
 ###<a name="piclink">给图片加上超链接
 ####第一种
