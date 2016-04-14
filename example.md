@@ -1,7 +1,6 @@
-#Markdown
-该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充, 称之为`GitHub Flavored Markdown`。简称`GFM`, GFM在GitHub上有广泛应用, 除了README文件外, issues和wiki均支持markdown语法。  
-######　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　转载自: @guodongxiaren  
-######　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　有所修改  
+# Markdown示例
+该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充, 称之为`GitHub Flavored Markdown`, 简称`GFM`, GFM在GitHub上有广泛应用, 除了README文件外, issues和wiki也支持markdown语法。  
+######　　　　　　　　　　　　　　　　　　　　　　　　　　　　　在 @guodongxiaren/README 基础上修改而得  
 ***
 ##<a name="index"/>目录
 * [1. 横线](#line)
@@ -143,21 +142,16 @@ PS : 以空行结束
 ###5.2 锚点
 我们可以使用HTML的锚点标签(`#`)来设置锚点 : [回到目录](#index)  
 ###<a name="piclink"/>5.3 图片超链接
-#####来源于网络的图片
+**来源于网络的图片**  
 ![](https://www.baidu.com/img/bdlogo.gif "百度logo")
-#####GitHub仓库中的图片
+**GitHub仓库中的图片**  
 ![](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png)
 #####**给图片加上超链接**
-#####第一种
-[![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
+**第一种**  
+[![head]](http://blog.csdn.net/lyogvce)
 [head]:https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/blob/master/profile_picture.png "点击图片进入我的博客"
-
-#####第二种
+**第二种**  
 [![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)
-
-
-
-
 ##<a name="code"/>6. 代码
 ```Java
 public static void main(String[]args){} //Java
