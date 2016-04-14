@@ -142,16 +142,15 @@ PS : 以空行结束
 ###5.2 锚点
 我们可以使用HTML的锚点标签(`#`)来设置锚点 : [回到目录](#index)  
 ###<a name="piclink"/>5.3 图片超链接
-**来源于网络的图片**  
+#####**显示图片**
+**来源于网络的图片**　　　　　　　　　　　　　　　　　　　**GitHub仓库中的图片**  
 ![](https://www.baidu.com/img/bdlogo.gif "百度logo")
-**GitHub仓库中的图片**  
-![](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png)
+![](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png)  
 #####**给图片加上超链接**
-**第一种**  
+**第一种**　　　　　　　　　　　　　　　　　　　　　　　　**第二种**  
+[![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)
 [![head]](http://blog.csdn.net/lyogvce)
 [head]:https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/blob/master/profile_picture.png "点击图片进入我的博客"
-**第二种**  
-[![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)
 ##<a name="code"/>6. 代码
 ```Java
 public static void main(String[]args){} //Java
