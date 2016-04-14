@@ -1,4 +1,4 @@
-# <a name="Markdown"/>Markdown语法示例
+# Markdown
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充, 称之为`GitHub Flavored Markdown`。简称`GFM`, GFM在GitHub上有广泛应用, 除了README文件外, issues和wiki均支持markdown语法。  
 ######　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　转载自: @guodongxiaren  
 ######　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　有所修改  
@@ -144,7 +144,7 @@ PS : 以空行结束
 [emoji](./emoji.md)　　语法 :　```[emoji](./emoji.md)```  
 **如果文件要引用的文件不存在, 则待点击的文本为红色。引用的文件存在存在则文本为蓝色。**  
 ###5.2 锚点
-我们可以使用HTML的锚点标签(`#`)来设置锚点:[回到目录](#index)  
+我们可以使用HTML的锚点标签(`#`)来设置锚点 : [回到目录](#index)  
 但其实呢, 每一个标题都是一个锚点, 不需要用标签来指定, 比如我们 [回到顶部](#Markdown)  
 不过不幸的是, 由于对中文支持的不好, 所以中文标题貌似是不能视作标签的。  
 ##<a name="pic"/>显示图片
