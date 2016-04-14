@@ -25,7 +25,7 @@
 * [6. 代码](#code)
 * [7. 表格](#table) 
 * [8. 表情](#emoji)
-* [9. GFM对SM的扩展](#diff)
+* [9. GFM对SM的扩展](#exptend)
 
 ##<a name="line"/>1. 横线
 #####***、---、___显示虚横线
@@ -57,8 +57,7 @@ PS : 非普通文本是自动换行的
 ###3.2.1 高亮
 Thank `You` . Please `Call` Me `Coder`
 #####高亮功能也适合做一篇文章的tag
-例如:<br>
-`java` `网络编程` `Socket` `全双工`
+例如:　`java` `网络编程` `Socket` `全双工`
 ###3.2.2 删除线
 这是一个 ~~删除线~~
 ###3.2.3 粗体
@@ -116,8 +115,8 @@ PS : 前后都要空行
 和圆点的列表一样, 数字列表也有多级结构, 以4个空格为缩进:  
 
 1. 这是一级的数字列表, 数字1是1
-   1. 这是二级的数字列表, 阿拉伯数字在显示的时候变成了罗马数字
-      1. 这是三级的数字列表, 数字在显示的时候变成了英文字母
+    1. 这是二级的数字列表, 阿拉伯数字在显示的时候变成了罗马数字
+        1. 这是三级的数字列表, 数字在显示的时候变成了英文字母
 	    1. 四级的数字列表显示效果, 就不再变化了, 依旧是英文字母
 
 PS : 前后都要空行  
@@ -132,23 +131,22 @@ PS : 以空行结束
 ##<a name="link"/>5. 链接
 ###5.1 文字超链接
 ####5.1.1 链接外部URL
-[我的博客](http://blog.csdn.net/lyogvce "悬停显示")　　语法 :　```[我的博客](http://blog.csdn.net/lyogvce "悬停显示")```
+[我的博客](http://blog.csdn.net/lyogvce "悬停显示")　　语法 :　```[我的博客](http://blog.csdn.net/lyogvce "悬停显示")```  
 #####链接的另一种写法
 [我的博客][id]　　语法如下:  
-[id]:http://blog.csdn.net/guodongxiaren "悬停显示"  
+[id]:http://blog.csdn.net/lyogvce "悬停显示"  
 ```
 [我的博客][id]
-[id]:http://blog.csdn.net/guodongxiaren "悬停显示"
+[id]:http://blog.csdn.net/lyogvce "悬停显示"
 ```
 中括号[ ]里的id, 可以是数字, 字母等的组合。这两行可以不连着写, **一般把第二行的链接统一放在文章末尾**, id上下对应就行了。这样正文看起来会比较干净。  
 ####5.1.2 链接本仓库里的URL
-[emoji](/emoji.md)　　语法 :　```[emoji](/emoji.md)```  
+[emoji](./emoji.md)　　语法 :　```[emoji](./emoji.md)```  
 **如果文件要引用的文件不存在, 则待点击的文本为红色。引用的文件存在存在则文本为蓝色。**  
 ###5.2 锚点
 我们可以使用HTML的锚点标签（`#`）来设置锚点:[回到目录](#index)  
-但其实呢, 每一个标题都是一个锚点, 不需要用标签来指定, 比如我们 [回到顶部](#TEST)
-不过不幸的是, 由于对中文支持的不好, 所以中文标题貌似是不能视作标签的。
-
+但其实呢, 每一个标题都是一个锚点, 不需要用标签来指定, 比如我们 [回到顶部](#锚点)  
+不过不幸的是, 由于对中文支持的不好, 所以中文标题貌似是不能视作标签的。  
 ##<a name="pic"/>显示图片
 ###来源于网络的图片
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
@@ -222,11 +220,8 @@ Content Cell  | Content Cell
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") | baidu
 
 ##<a name="emoji"/>8. 表情
-Github的Markdown语法支持添加emoji表情, 输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
-
-比如`:blush:`, 可以显示:blush:。
-
-具体每一个表情的符号码, 可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
-
-但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中, 大家可以直接在此查看[emoji](/emoji.md)。
+Github的Markdown语法支持添加emoji表情, 输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。  
+比如`:blush:`, 可以显示:blush:。  
+具体每一个表情的符号码, 可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。  
+但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中, 大家可以直接在此查看[emoji](./emoji.md)。  
 ##<a name="diff"/>9. GFM对SM的扩展
