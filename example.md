@@ -19,9 +19,6 @@
     * 5.1 文字超链接
     * 5.2 锚点
     * [5.3 图片超链接](#piclink)
-    * [图片](#pic)
-    * 来源于网络的图片
-    * GitHub仓库中的图片
 * [6. 代码](#code)
 * [7. 表格](#table) 
 * [8. 表情](#emoji)
@@ -145,18 +142,17 @@ PS : 以空行结束
 **如果文件要引用的文件不存在, 则待点击的文本为红色。引用的文件存在存在则文本为蓝色。**  
 ###5.2 锚点
 我们可以使用HTML的锚点标签(`#`)来设置锚点 : [回到目录](#index)  
-###<a name="pic"/>显示图片
+###<a name="piclink"/>5.3 图片超链接
 #####来源于网络的图片
-![baidu](https://www.baidu.com/img/bdlogo.gif "百度logo")
+![](https://www.baidu.com/img/bdlogo.gif "百度logo")
 #####GitHub仓库中的图片
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
-###<a name="piclink">给图片加上超链接
-####第一种
-
+![](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png)
+#####**给图片加上超链接**
+#####第一种
 [![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
-[head]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/jianxin.jpg "点击图片进入我的博客"
+[head]:https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/blob/master/profile_picture.png "点击图片进入我的博客"
 
-#### 第二种
+#####第二种
 [![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)
 
 
