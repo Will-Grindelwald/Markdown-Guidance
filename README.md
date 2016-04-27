@@ -1,8 +1,8 @@
 # Markdown-README.md
-### 官方的语法说明(英文): http://daringfireball.net/projects/markdown/syntax
-### 本文example.md的思路来源: https://github.com/guodongxiaren/README
-### GitHub Guides(关于GFM):   https://guides.github.com/features/mastering-markdown/
-### 其他教程: 
+#### 官方的语法说明(英文): http://daringfireball.net/projects/markdown/syntax
+#### 本文example.md的思路来源: https://github.com/guodongxiaren/README
+#### GitHub Guides(关于GFM):   https://guides.github.com/features/mastering-markdown/
+##### 其他教程: 
 **http://www.appinn.com/markdown**  
 **http://www.jianshu.com/p/q81RER**
 
