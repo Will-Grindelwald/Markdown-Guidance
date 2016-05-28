@@ -20,7 +20,7 @@
 * [8. 表情](#emoji)
 * [9. GFM对SM的扩展](#exptend)
 
-## <span id="line"/>1. 横线
+## <span id="line">1. 横线</span>
 
 **\*\*\*、---、___显示虚横线, 三种效果一样**
 
