@@ -80,9 +80,7 @@ Thank `You` . Please `Call` Me `Coder`
 
 **粗体**　　*斜体*　　~~删除线~~
 
-**组合使用粗体、斜体、删除线**
-
-***斜粗体***　　***~~斜粗体删除线~~***
+**组合使用粗体、斜体、删除线:** ***斜粗体***　　***~~斜粗体删除线~~***
 
 ### 3.2.3 空格
 
@@ -199,19 +197,16 @@ PS : 以空行结束
 
 **来源于网络的图片**　　　　　　　　　　　　　　　　　　　　　**GitHub仓库中的图片**
 
-![baidu](https://www.baidu.com/img/bdlogo.gif "百度logo")　　　　
-![](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png)
+![baidu logo](https://www.baidu.com/img/bdlogo.gif "百度logo")　　　　![my logo](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png "我的logo")
 
 [ ]中是图片的替代文字，图片加载失败时会显示该文字
 
-##### **给图片加上超链接**
+#### **给图片加上超链接**
 
 **第一种**　　　　　　　　　　　　　　　　　　　　　　　　　　**第二种**
 
-[![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)　　　　
-
-[![head]](http://blog.csdn.net/lyogvce)
-[head]: https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/blob/master/profile_picture.png "点击图片进入我的博客"
+[![内容任意](http://www.baidu.com/img/bdlogo.gif "点击进入百度")](http://www.baidu.com)　　　　[![head]](http://blog.csdn.net/lyogvce)
+[head]: https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/blob/master/profile_picture.png "点击进入我的博客"
 
 ## <a name="code"/>6. 代码
 
