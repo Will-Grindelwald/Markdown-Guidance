@@ -6,7 +6,7 @@
 
 **GitHub Guides(关于GFM): <https://guides.github.com/features/mastering-markdown>**
 
-其他教程:　<http://www.appinn.com/markdown>　<http://www.jianshu.com/p/q81RER>
+其他教程: <http://www.appinn.com/markdown>　<http://www.jianshu.com/p/q81RER>
 
 马克飞象是一款专为印象笔记打造的Markdown编辑器: <https://maxiang.io>, 在线写Markdown, 很强大
 
