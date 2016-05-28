@@ -29,7 +29,7 @@
 
 ## <a name="line"/>1. 横线
 
-** \*\*\*、---、___显示虚横线, 三种效果一样**
+**\*\*\*、---、___显示虚横线, 三种效果一样**
 
 ***
 
@@ -56,7 +56,7 @@ PS : 一、二级标题自动带有下划线(不是虚横线)
 
 这是一段普通的文本
 
-** 关于换行 **
+**关于换行**
 
 直接回车不能换行,
 可以使用\<br>。 <br>
@@ -66,35 +66,25 @@ PS : 一、二级标题自动带有下划线(不是虚横线)
 
 也能实现换行效果, 不过这个行间距有点大。
 
-** PS : 非普通文本是自动换行的 **
+PS : 非普通文本是自动换行的
 
 ### 3.2.1 高亮
 
 Thank `You` . Please `Call` Me `Coder`
 
-#### 高亮功能也适合做一篇文章的tag
+**高亮功能也适合做一篇文章的tag**
 
 例如:　`java` `网络编程` `Socket` `全双工`
 
-### 3.2.2 删除线
+### 3.2.2 粗体、斜体、删除线
 
-这是一个 ~~删除线~~
+**粗体**　　*斜体*　　~~删除线~~
 
-### 3.2.3 粗体
+**组合使用粗体、斜体、删除线**
 
-**粗体1**　　　　　　　　　　__粗体2__
+***斜粗体***　　***~~斜粗体删除线~~***
 
-### 3.2.4 斜体
-
-*斜体1*　　　　　　　　　　_斜体2_
-
-#### 组合使用粗体、斜体和删除线
-
-***斜粗体1***　　　　　　　　　___斜粗体2___
-
-***~~斜粗体删除线1~~***　　　　　　~~***斜粗体删除线2***~~
-
-### 3.2.5 空格
+### 3.2.3 空格
 
 普    通    的    空    格    多    个    只    会    显    示    为    一    个
 
@@ -108,7 +98,7 @@ Thank `You` . Please `Call` Me `Coder`
 
 ### <a name="blockquotes"/>3.4 块引用
 
-#### 常用于引用文本
+**常用于引用文本**
 
 文本摘自《深入理解计算机系统》P27
 > **“端”(endian)的起源**  
@@ -118,7 +108,7 @@ Thank `You` . Please `Call` Me `Coder`
 
 PS : 块引用以空行结束
 
-#### 块引用有多级结构
+**块引用有多级结构**
 
 > 数据结构
 >> 树
@@ -130,8 +120,8 @@ PS : 块引用以空行结束
 
 ### 4.1.1 圆点列表 (注意*后的空格)
 
-- 昵称:   阶乘！
-- 别名:   欧巴
+- 昵称: 　阶乘！
+- 别名: 　欧巴
 - 英文名: Will
 
 PS : 以空行结束
@@ -182,24 +172,22 @@ PS : 以空行结束
 
 #### 5.1.1 链接外部URL
 
-[我的博客](http://blog.csdn.net/lyogvce "悬停显示")　　语法 :　```[我的博客](http://blog.csdn.net/lyogvce "悬停显示")```  
-** 链接的另一种写法 **
-[我的博客][id]　　语法如下:
+[我的博客](http://blog.csdn.net/lyogvce "悬停显示")　　语法 :　```[我的博客](http://blog.csdn.net/lyogvce "悬停显示")```
 
-[id]:http://blog.csdn.net/lyogvce "悬停显示"
+**另一种写法** 　语法如下:
 
 ```markdown
 [我的博客][id]
 [id]:http://blog.csdn.net/lyogvce "悬停显示"
 ```
 
-中括号[ ]里的id, 可以是数字, 字母等的组合。这两行可以不连着写, **一般把第二行的链接统一放在文章末尾**, id上下对应就行了。这样正文看起来会比较干净。  
+[ ]里的id, 可以是数字, 字母等的组合。这两行可以不连着写, **一般把第二行的链接统一放在文章末尾**, id上下对应就行了。这样正文看起来会比较干净。  
 
 #### 5.1.2 链接本仓库里的URL
 
 [emoji](./emoji.md)　　语法 :　```[emoji](./emoji.md)```
 
-** 如果文件要引用的文件不存在, 则待点击的文本为红色。引用的文件存在存在则文本为蓝色。 **
+**如果文件要引用的文件不存在, 则待点击的文本为红色。引用的文件存在存在则文本为蓝色。**
 
 ### 5.2 锚点
 
@@ -211,17 +199,16 @@ PS : 以空行结束
 
 **来源于网络的图片**　　　　　　　　　　　　　　　　　　　　　**GitHub仓库中的图片**
 
-![baidu](https://www.baidu.com/img/bdlogo.gif "百度logo")
-
+![baidu](https://www.baidu.com/img/bdlogo.gif "百度logo")　　　　
 ![](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png)
 
-中括号[ ]中是图片的替代文字，图片加载失败时会显示该文字
+[ ]中是图片的替代文字，图片加载失败时会显示该文字
 
 ##### **给图片加上超链接**
 
 **第一种**　　　　　　　　　　　　　　　　　　　　　　　　　　**第二种**
 
-[![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)
+[![内容任意](http://www.baidu.com/img/bdlogo.gif "百度logo")](http://www.baidu.com)　　　　
 
 [![head]](http://blog.csdn.net/lyogvce)
 [head]: https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/blob/master/profile_picture.png "点击图片进入我的博客"
@@ -229,23 +216,23 @@ PS : 以空行结束
 ## <a name="code"/>6. 代码
 
 ```Java
-public static void main(String[]args){} //Java
+public static void main(String[]args){} // Java
 ```
 
 ```c
-int main(int argc, char *argv[]) //C
+int main(int argc, char *argv[]) // C
 ```
 
-```Bash
-echo "hello GitHub"#Bash
+```shell
+echo "hello GitHub" # shell
 ```
 
 ```javascript
-document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
+document.getElementById("myH1").innerHTML="Welcome to my Homepage"; // javascipt
 ```
 
 ```cpp
-string &operator+(const string& A,const string& B) //cpp
+string &operator+(const string& A,const string& B) // cpp
 ```
 
 ## <a name="table"/>7. 表格
