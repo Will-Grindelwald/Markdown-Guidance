@@ -37,7 +37,7 @@
 
 ___
 
-**Tips: `*`、`-`、`_`这三种符号在Markdown中是同义符, 包括在下面的`列表`和`强调`, 但为统一风格, 一律用`*`**
+**Tips: `*`、`-`、`_`这三种符号在Markdown中是同义符, 包括在下面的`列表`和`强调`中, 但为统一风格, 一律用`*`**
 
 ## <a name="title"/>2. 标题
 
@@ -194,7 +194,7 @@ PS : 前后都要空行
 
 #### **Ⅰ显示图片**
 
-**来源于网络的图片**　　　　　　　　　　　　　　　　　　　　**GitHub仓库中的图片**
+**来源于网络的图片**　　　　　　　　　　　　　　　　　　　**GitHub仓库中的图片**
 
 ![baidu logo](https://www.baidu.com/img/bdlogo.gif "百度logo")　　　　![my logo](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png "我的logo")
 
@@ -204,8 +204,9 @@ PS : 前后都要空行
 
 **第一种**　　　　　　　　　　　　　　　　　　　　　　　　　　**第二种**
 
-[![内容任意](http://www.baidu.com/img/bdlogo.gif "点击进入百度")](http://www.baidu.com)　　　　[![head]](http://blog.csdn.net/lyogvce)
+[![内容任意](http://www.baidu.com/img/bdlogo.gif "点击进入百度")](http://www.baidu.com)　　　　[![head]][homepage]
 [head]: https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/blob/master/profile_picture.png "点击进入我的博客"
+[homepage]: http://blog.csdn.net/lyogvce
 
 ## <a name="code"/>6. 代码
 
