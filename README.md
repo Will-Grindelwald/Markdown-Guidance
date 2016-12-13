@@ -1,4 +1,4 @@
-# Markdown-README.md
+# Markdown-README
 
 **官方的语法说明(英文): <http://daringfireball.net/projects/markdown/syntax>**  
 **本文 example.md 的思路来源: <https://github.com/guodongxiaren/README>**  
@@ -14,5 +14,5 @@
 Tips:
 
 1. 写 README.md 时用GitHub web端比较好，高亮对语法有帮助
-* example.md 是一个很好的说明
-* 那个pdf是第二选择
+2. example.md 是一个很好的说明
+3. 那个pdf是第二选择
