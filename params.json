@@ -1,6 +1,0 @@
-{
-  "name": "Markdown-guidance",
-  "tagline": "",
-  "body": "# Markdown-README.md\r\n\r\n**官方的语法说明(英文): <http://daringfireball.net/projects/markdown/syntax>**  \r\n**本文 example.md 的思路来源: <https://github.com/guodongxiaren/README>**  \r\n**GitHub Guides(关于 GFM): <https://guides.github.com/features/mastering-markdown>**  \r\n其他教程: <http://www.appinn.com/markdown>　<http://www.jianshu.com/p/q81RER>\r\n\r\n在线 Markdown 编辑器\r\n\r\n* MarkdownIME <http://laobubu.net/MarkdownIME/index.zh.html>\r\n* 马克飞象 <https://maxiang.io>\r\n* 作业部落 <https://www.zybuluo.com/mdeditor>\r\n\r\nTips:\r\n\r\n1. 写 README.md 时用GitHub web端比较好，高亮对语法有帮助\r\n* example.md 是一个很好的说明\r\n* 那个pdf是第二选择\r\n",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
