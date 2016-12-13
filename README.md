@@ -1,4 +1,4 @@
-# Markdown-README
+# Markdown-Guidance
 
 **官方的语法说明(英文): <http://daringfireball.net/projects/markdown/syntax>**  
 **本文 example.md 的思路来源: <https://github.com/guodongxiaren/README>**  
