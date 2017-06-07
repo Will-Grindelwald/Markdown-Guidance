@@ -14,5 +14,5 @@
 Tips:
 
 1. 写 README.md 时用GitHub web端比较好，高亮对语法有帮助
-2. example.md 是一个很好的说明
-3. 那个pdf是第二选择
+1. example.md 是一个很好的说明
+1. 那个pdf是第二选择
