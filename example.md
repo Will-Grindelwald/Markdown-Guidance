@@ -1,7 +1,6 @@
 # Markdown示例
 
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充, 称之为`GitHub Flavored Markdown`, 简称`GFM`, GFM在GitHub上有广泛应用, 除了README文件外, issues和wiki也支持markdown语法。
-######　　　　　　　　　　　　　　　　　　　　　　　　　　　　　在 @guodongxiaren/README 基础上修改而得
 
 ***
 
@@ -202,19 +201,20 @@ PS : 前后都要空行
 
 #### **Ⅰ显示图片**
 
-**来源于网络的图片**　　　　　　　　　　　　　　　　　　　**GitHub仓库中的图片**
+**来源于网络的图片**　　　　　　　　　　　　**GitHub仓库中的图片**
 
-![baidu logo](https://www.baidu.com/img/bdlogo.gif "百度logo")　　　　![my logo](https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/raw/master/profile_picture.png "我的logo")
+![baidu logo](https://www.baidu.com/img/bdlogo.gif "百度logo")　　　　![my logo](http://Will-Grindelwald.github.io/favicon.png "我的logo")
 
 [ ]中是图片的替代文字，图片加载失败时会显示该文字
 
 #### **Ⅱ给图片加上超链接**
 
-**第一种**　　　　　　　　　　　　　　　　　　　　　　　　　　**第二种**
+**第一种**　　　　　　　　　　　　　　　　　　　**第二种**
 
-[![内容任意](http://www.baidu.com/img/bdlogo.gif "点击进入百度")](http://www.baidu.com)　　　　[![head]][homepage]
-[head]: https://github.com/Will-Grindelwald/Will-Grindelwald.github.io/blob/master/profile_picture.png "点击进入我的博客"
-[homepage]: http://blog.csdn.net/lyogvce
+[![内容任意](http://www.baidu.com/img/bdlogo.gif "点击进入百度")](http://www.baidu.com)　　　　[![][head]][homepage]
+
+[head]: http://Will-Grindelwald.github.io/favicon.png "点击进入我的主页"
+[homepage]: http://www.lyogvce.me
 
 ## 6. 代码
 

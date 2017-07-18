@@ -1,18 +1,14 @@
 # Markdown-Guidance
 
-**官方的语法说明(英文): <http://daringfireball.net/projects/markdown/syntax>**  
-**本文 example.md 的思路来源: <https://github.com/guodongxiaren/README>**  
-**GitHub Guides(关于 GFM): <https://guides.github.com/features/mastering-markdown>**  
-其他教程: <http://www.appinn.com/markdown>　<http://www.jianshu.com/p/q81RER>
+本项目核心成果: [**Markdown 语法示例文件**](http://www.lyogvce.me/Markdown-Guidance/example)
+
+* [**官方的语法说明(英文)**](http://daringfireball.net/projects/markdown/syntax)
+* [**GitHub Guides(关于 GFM)**](https://guides.github.com/features/mastering-markdown)
 
 在线 Markdown 编辑器
 
-* MarkdownIME <http://laobubu.net/MarkdownIME/index.zh.html>
-* 马克飞象 <https://maxiang.io>
-* 作业部落 <https://www.zybuluo.com/mdeditor>
+* [MarkdownIME](http://laobubu.net/MarkdownIME/index.zh.html)
+* [马克飞象](https://maxiang.io)
+* [作业部落](https://www.zybuluo.com/mdeditor)
 
-Tips:
-
-1. 写 README.md 时用GitHub web端比较好，高亮对语法有帮助
-1. example.md 是一个很好的说明
-1. 那个pdf是第二选择
+感谢 @guodongxiaren 给予我启发
